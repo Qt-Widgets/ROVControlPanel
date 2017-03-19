@@ -16,9 +16,6 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
-private slots:
-    void on_dial_sliderMoved(int position);
-
 private:
     Ui::MainWindow *ui;
 };

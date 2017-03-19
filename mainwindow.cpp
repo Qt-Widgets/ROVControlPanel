@@ -6,8 +6,10 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->centralWidget->setEnabled(true);
+    ui->verticalLayout->setEnabled(true);
     ui->progressBar->setEnabled(true);
-    ui->horizontalSlider->setEnabled(true);
+    ui->dial->setEnabled(true);
 }
 
 MainWindow::~MainWindow()
